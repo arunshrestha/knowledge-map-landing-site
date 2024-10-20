@@ -11,7 +11,7 @@ const AppRoutes = () => {
     return (
         <Routes>
             {/* Routes with MainLayout */}
-            <Route element={<MainLayout />}>
+            <Route basename="/knowledge-map-landing-page" element={<MainLayout />}>
                 <Route path="/" element={<Home />} />
                 <Route path="/about" element={<About />} />
                 <Route path="/team" element={<Team />} />
