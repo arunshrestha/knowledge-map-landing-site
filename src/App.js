@@ -5,7 +5,7 @@ import AppRoutes from './routes/AppRoutes';  // Import routes
 
 function App() {
   return (
-    <Router>
+    <Router basename="/knowledge-map-landing-site">
       <AppRoutes />
     </Router>
   )
